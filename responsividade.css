@@ -1,0 +1,76 @@
+@media screen and (max-width:400px){
+
+    .box-itens{
+        display: flex;
+    }
+    
+    .menu-header {
+        background-color:#66db2f;
+       
+    }
+    .menu-header ul{
+        display: flex;
+        padding: rem;
+        list-style: none;
+        justify-content: center;
+     gap: 5em;
+        
+        
+    }
+    
+    .menu-header a{
+        text-decoration: none;
+        color: #d8e5eb;
+        font-size: 1.5em;
+    }
+    .menu-header  a:hover{
+        padding: 10%;
+        height: 55%;
+        color: #d8e5eb ;
+        transition: 0.5s;
+        box-shadow: 15px 5px 5px  black;
+        background-color:#048ca4;
+    }
+    .logo{
+        font-size: 15px;
+        margin-left: 2em;
+    text-align: center;
+        margin: 2em;
+     
+    }
+    h2{
+        color: black;
+    }
+    .logo hr{
+        height: 2px;
+        width: 250px;
+        background-color: white;
+    }
+    .search{
+        margin: 2.4em;
+    margin-left: 5em;
+    }
+    .search input{
+        width: 25em;
+        height: 2em;
+    }
+    
+    .cadastra-se{
+    text-align: center;
+        margin: 3em;
+        font-size:9px;
+        margin-left: 10em;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+  
+}
